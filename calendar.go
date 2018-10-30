@@ -74,7 +74,7 @@ func saveToken(path string, token *oauth2.Token) {
 }
 
 func main() {
-	if len(os.Args) < 3 {
+	if len(os.Args) < 2 {
 		log.Fatalf("Missing argument")
 	}
 
